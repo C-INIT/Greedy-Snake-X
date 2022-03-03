@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classcal_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classcal_game_setting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="help.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map_design.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pass_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player_rank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="base.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="classcal_game.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="classcal_game_setting.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="game_list.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="help.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="map_design.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="map_list.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="pass_game.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="player_rank.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="classcal_game.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="classcal_game_setting.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="game_list.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="help.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="map_design.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="map_list.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="pass_game.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="player_rank.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Background\1.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Background\2.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Background\3.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Background\4.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Background\5.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Block\??.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Block\???.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="Image.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="Image\blue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\cyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\elixir.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\green.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\orange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\purple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\red.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\title.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\white.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image\yellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
